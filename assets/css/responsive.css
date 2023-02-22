@@ -1,0 +1,42 @@
+/* pc */
+@media (min-width: 1024px){
+
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width:1023px){
+    
+}
+
+/* mobile */
+@media (max-width: 740px){
+
+    #menu {
+        display: none;
+    }
+
+    #mobile-menu{
+        display: block;
+    }
+    .noticias-posts{
+        flex-direction: column;
+    }
+
+    .contact-big{
+        flex-direction: column;
+    }
+
+    .contact-info{
+        width: 100%;
+        padding: 24px 24px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+
+    .form-btn{
+        width: 100%;
+    }
+
+    
+}
